@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        body{
+            scroll-behavior: smooth;
+        }
+        section{
+            padding: 100px 0;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar"
+ data-bs-0ffset="80">
+   <!-- navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">My site</a>
+        <div class="navbar-nav">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">about</a>
+            <a href="#services" class="nav-link">services</a>
+            <a href="#contact" class="nav-link">contact us</a>
+            <a href="#" class="nav-link">T & C</a>
+        </div>
+    </div>
+    </nav>
+    <!-- section -->
+     <section id="home" class="bg-primary text-white">
+     <div class="container text-white">
+        <h1 class="display-4">Welcome to the home section</h1>
+     </div>
+     </section>
+     <section id="about" class="bg-secondary text-white">
+        <div class="container text-white">
+            <h1 class="display-4">Welcome to the about section</h1>
+        </div>
+     </section>
+
+     <section id="services" class="bg-dark text-white">
+       <div class="container text-white">
+        <h1 class="display-4">Welcome to the services section</h1>
+       </div>
+     </section>
+    <div class="container-fluid"></div>
+    <h1>Bootstrap Carousal (slideshow)</h1>
+    <p>The Carousal is used to create an imahe slideror content slideshow that
+        automatically changes slides. </p>
+        <div id="demoCarousal" class="Carousal slide" data-bs-ride="carousal">
+
+            <div class="Carousal-indicators">
+                <button type="button" data-bs-target="#myCarousal" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#myCarousal" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#myCarousal" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+   <div class="carousal-inner">
+    <div class="carousal-item active">
+        <img src="images/17869.jpg" class="d-block w-100" alt="slide 1">
+        <div class="carousal-caption d-none d-md-block">
+            <h5>Welcome to Bootstrap</h5>
+            <p>Build responsive websites easily</p>
+        </div>
+    </div>  
+   </div>
+
+   <div class="carousal-item">
+   <img src="Class table .html/image/9419.jpg" class="d-block w-100" alt="slide 2"
+   </div>
+   <div class="container-fluid"></div>
+   <h1>Bootstrap scrollspy</h1>
+   <script src="webclassjoshua/js/bootstrap.bundle.min.js"></script>
+   <p>scrollspy automatically highlight the navigation link as you </p>
+</body>
+</html>
